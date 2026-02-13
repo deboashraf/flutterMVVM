@@ -19,7 +19,7 @@ class CustomBotton extends StatelessWidget {
           fixedSize: MaterialStateProperty.all(const Size(250, 50)),
 
         ),
-        onPressed: () {}, child: Text(text,style: TextStyle(
+        onPressed:onpressed, child: Text(text,style: TextStyle(
           color: Colors.black
         ),)),
     );
